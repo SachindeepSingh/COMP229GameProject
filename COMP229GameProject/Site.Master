@@ -28,7 +28,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="Default.aspx"><i class="fa fa-graduation-cap fa-lg"></i>  Contoso  University</a>
+                    <a class="navbar-brand" href="Default.aspx"><i class="fa fa-graduation-cap fa-lg"></i>  Cricket Website </a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -43,15 +43,14 @@
                 </asp:PlaceHolder>
 
                 <asp:PlaceHolder ID="ContosoPlaceHolder" runat="server">
-                    <li id="menu" runat="server"><a href="/Contoso/MainMenu.aspx"><i class="fa fa-map-signs fa-lg"></i> Main Menu</a></li>
-                    <li id="students" runat="server"><a href="/Contoso/Students.aspx"><i class="fa fa-leanpub fa-lg"></i> Students</a></li>
-                    <li id="courses" runat="server"><a href="/Contoso/Courses.aspx"><i class="fa fa-book fa-lg"></i> Courses</a></li>
-                    <li id="departments" runat="server"><a href="/Contoso/Departments.aspx"><i class="fa fa-puzzle-piece fa-lg"></i> Departments</a></li>
-                    <li id="logout" runat="server"><a href="/Logout.aspx"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
+                    <li id="week1" runat="server"><a href="/Contoso/MainMenu.aspx"><i class="fa fa-leanpub fa-lg"></i> Week 1 </a></li>
+                    <li id="week2" runat="server"><a href="/Contoso/Students.aspx"><i class="fa fa-leanpub fa-lg"></i> Week 2 </a></li>
+                    <li id="week3" runat="server"><a href="/Contoso/Courses.aspx"><i class="fa fa-leanpub fa-lg"></i> Week 3 </a></li>
+                    <li id="week4" runat="server"><a href="/Contoso/Departments.aspx"><i class="fa fa-leanpub fa-lg"></i> Week 4 </a></li>
+                    <li id="logout" runat="server"><a href="/Logout.aspx"><i class="fa fa-sign-out fa-lg"></i> Logout </a></li>
                 </asp:PlaceHolder>
                 
-                 <li id="about" runat="server"><a href="/About.aspx"><i class="fa fa-info fa-lg"></i> About</a></li>
-                <li id="contact" runat="server"><a href="/Contact.aspx"><i class="fa fa-phone fa-lg"></i> Contact</a></li>
+                 
             </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -68,7 +67,7 @@
     <!-- Footer -->
     <nav class="navbar navbar-default navbar-fixed-bottom">
         <div class="container">
-            <h4>&copy; 2016 - Contoso University - All Rights Reserved</h4>
+            <h4>&copy; 2016 - Comp 229 Cricket Website</h4>
         </div>
     </nav>
 

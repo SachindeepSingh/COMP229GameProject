@@ -7,13 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace COMP229GameProject
-{
-
-
-    public partial class Site
-    {
-
+namespace COMP229GameProject {
+    
+    
+    public partial class Site {
+        
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -22,7 +20,7 @@ namespace COMP229GameProject
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
+        
         /// <summary>
         /// home control.
         /// </summary>
@@ -31,7 +29,7 @@ namespace COMP229GameProject
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl home;
-
+        
         /// <summary>
         /// PublicPlaceHolder control.
         /// </summary>
@@ -40,7 +38,7 @@ namespace COMP229GameProject
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.PlaceHolder PublicPlaceHolder;
-
+        
         /// <summary>
         /// login control.
         /// </summary>
@@ -49,7 +47,7 @@ namespace COMP229GameProject
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl login;
-
+        
         /// <summary>
         /// register control.
         /// </summary>
@@ -58,7 +56,7 @@ namespace COMP229GameProject
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl register;
-
+        
         /// <summary>
         /// ContosoPlaceHolder control.
         /// </summary>
@@ -67,43 +65,43 @@ namespace COMP229GameProject
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.PlaceHolder ContosoPlaceHolder;
-
+        
         /// <summary>
-        /// menu control.
+        /// week1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl menu;
-
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl week1;
+        
         /// <summary>
-        /// students control.
+        /// week2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl students;
-
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl week2;
+        
         /// <summary>
-        /// courses control.
+        /// week3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl courses;
-
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl week3;
+        
         /// <summary>
-        /// departments control.
+        /// week4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl departments;
-
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl week4;
+        
         /// <summary>
         /// logout control.
         /// </summary>
@@ -112,25 +110,7 @@ namespace COMP229GameProject
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl logout;
-
-        /// <summary>
-        /// about control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl about;
-
-        /// <summary>
-        /// contact control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl contact;
-
+        
         /// <summary>
         /// MainContent control.
         /// </summary>

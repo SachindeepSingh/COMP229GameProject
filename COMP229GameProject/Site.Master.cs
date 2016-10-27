@@ -47,20 +47,18 @@ namespace COMP229GameProject
                     home.Attributes.Add("class", "active");
                     break;
                 case "Students":
-                    students.Attributes.Add("class", "active");
+                    week1.Attributes.Add("class", "active");
                     break;
                 case "Courses":
-                    courses.Attributes.Add("class", "active");
+                    week2.Attributes.Add("class", "active");
                     break;
                 case "Departments":
-                    departments.Attributes.Add("class", "active");
+                    week3.Attributes.Add("class", "active");
                     break;
                 case "About":
-                    about.Attributes.Add("class", "active");
+                    week4.Attributes.Add("class", "active");
                     break;
-                case "Contact":
-                    contact.Attributes.Add("class", "active");
-                    break;
+                
             }
         }
     }

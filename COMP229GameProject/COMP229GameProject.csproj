@@ -124,10 +124,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Contoso\Courses.aspx" />
-    <Content Include="Contoso\Departments.aspx" />
-    <Content Include="Contoso\Enrollments.aspx" />
-    <Content Include="Contoso\MainMenu.aspx" />
+    <Content Include="Assets\images\live-cricket-play-ground-hd-wallpapers-free.jpg" />
+    <Content Include="Contoso\Week3.aspx" />
+    <Content Include="Contoso\Week4.aspx" />
+    <Content Include="Contoso\Week1.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Logout.aspx" />
     <Content Include="packages.config">
@@ -143,8 +143,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.aspx" />
-    <Content Include="Contact.aspx" />
     <Content Include="Content\app.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -175,39 +173,24 @@
     <None Include="Scripts\jquery-2.2.4.intellisense.js" />
     <Content Include="Scripts\jquery-2.2.4.js" />
     <Content Include="Scripts\jquery-2.2.4.min.js" />
-    <Content Include="Contoso\StudentDetails.aspx" />
-    <Content Include="Contoso\Students.aspx" />
+    <Content Include="Contoso\Week2.aspx" />
     <Content Include="Web.config" />
     <Content Include="Site.Master" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
+    <Compile Include="Contoso\Week3.aspx.cs">
+      <DependentUpon>Week3.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
+    <Compile Include="Contoso\Week3.aspx.designer.cs">
+      <DependentUpon>Week3.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Contact.aspx.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
+    <Compile Include="Contoso\Week1.aspx.cs">
+      <DependentUpon>Week1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Contoso\Courses.aspx.cs">
-      <DependentUpon>Courses.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Contoso\Courses.aspx.designer.cs">
-      <DependentUpon>Courses.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Contoso\MainMenu.aspx.cs">
-      <DependentUpon>MainMenu.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Contoso\MainMenu.aspx.designer.cs">
-      <DependentUpon>MainMenu.aspx</DependentUpon>
+    <Compile Include="Contoso\Week1.aspx.designer.cs">
+      <DependentUpon>Week1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -216,19 +199,12 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Contoso\Departments.aspx.cs">
-      <DependentUpon>Departments.aspx</DependentUpon>
+    <Compile Include="Contoso\Week4.aspx.cs">
+      <DependentUpon>Week4.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Contoso\Departments.aspx.designer.cs">
-      <DependentUpon>Departments.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Contoso\Enrollments.aspx.cs">
-      <DependentUpon>Enrollments.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Contoso\Enrollments.aspx.designer.cs">
-      <DependentUpon>Enrollments.aspx</DependentUpon>
+    <Compile Include="Contoso\Week4.aspx.designer.cs">
+      <DependentUpon>Week4.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -247,11 +223,11 @@
     <Compile Include="Logout.aspx.designer.cs">
       <DependentUpon>Logout.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Models\ContosoContext.cs" />
-    <Compile Include="Models\Course.cs" />
-    <Compile Include="Models\Department.cs" />
-    <Compile Include="Models\Enrollment.cs" />
-    <Compile Include="Models\Student.cs" />
+    <Compile Include="Models\FourthTeam.cs" />
+    <Compile Include="Models\SecondTeam.cs" />
+    <Compile Include="Models\Team.cs" />
+    <Compile Include="Models\TeamContext.cs" />
+    <Compile Include="Models\ThirdTeam.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
@@ -268,24 +244,16 @@
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
-    <Compile Include="Contoso\StudentDetails.aspx.cs">
-      <DependentUpon>StudentDetails.aspx</DependentUpon>
+    <Compile Include="Contoso\Week2.aspx.cs">
+      <DependentUpon>Week2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Contoso\StudentDetails.aspx.designer.cs">
-      <DependentUpon>StudentDetails.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Contoso\Students.aspx.cs">
-      <DependentUpon>Students.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Contoso\Students.aspx.designer.cs">
-      <DependentUpon>Students.aspx</DependentUpon>
+    <Compile Include="Contoso\Week2.aspx.designer.cs">
+      <DependentUpon>Week2.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Assets\images\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -6,7 +6,7 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 80px;
+  margin-bottom: 80px; background-image:url('images/live-cricket-play-ground-hd-wallpapers-free.jpg');
 }
 .footer {
   position: absolute;
@@ -89,3 +89,4 @@ body {
     border: 1px solid #dddddd;
     cursor: pointer;
 }
+

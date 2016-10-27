@@ -7,29 +7,27 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace COMP229GameProject
-{
-
-
-    public partial class Students
-    {
-
+namespace COMP229GameProject {
+    
+    
+    public partial class Departments {
+        
         /// <summary>
-        /// PageSizeDropDownList control.
+        /// content control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList PageSizeDropDownList;
-
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl content;
+        
         /// <summary>
-        /// StudentsGridView control.
+        /// CricketsGridView control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView StudentsGridView;
+        protected global::System.Web.UI.WebControls.GridView CricketsGridView;
     }
 }
