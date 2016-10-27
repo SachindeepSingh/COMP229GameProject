@@ -10,7 +10,7 @@
 namespace COMP229GameProject.Contoso {
     
     
-    public partial class MainMenu {
+    public partial class Week1 {
         
         /// <summary>
         /// content control.
@@ -22,12 +22,12 @@ namespace COMP229GameProject.Contoso {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl content;
         
         /// <summary>
-        /// CricketsGridView control.
+        /// CricketGridView control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView CricketsGridView;
+        protected global::System.Web.UI.WebControls.GridView CricketGridView;
     }
 }

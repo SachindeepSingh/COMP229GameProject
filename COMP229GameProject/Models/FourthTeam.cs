@@ -1,47 +1,26 @@
-
 namespace COMP229GameProject.Models
 {
     using System;
-    using System.Data.Entity;
+    using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
-    using System.Linq;
+    using System.Data.Entity.Spatial;
 
-    public partial class FourthTeam : DbContext
+    [Table("FourthTeam")]
+    public partial class FourthTeam
     {
-        public FourthTeam()
-            : base("name=FourthTeam")
-        {
-        }
+        public int Id { get; set; }
 
-        public virtual DbSet<SecondTeam> SecondTeams { get; set; }
-        public virtual DbSet<Team> Teams { get; set; }
-        public virtual DbSet<ThirdTeam> ThirdTeams { get; set; }
+        [Required]
+        [StringLength(50)]
+        public string Team1 { get; set; }
 
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<SecondTeam>()
-                .Property(e => e.Team1)
-                .IsUnicode(false);
+        [Required]
+        [StringLength(50)]
+        public string Team2 { get; set; }
 
-            modelBuilder.Entity<SecondTeam>()
-                .Property(e => e.Team2)
-                .IsUnicode(false);
+        public int Team1Score { get; set; }
 
-            modelBuilder.Entity<Team>()
-                .Property(e => e.Team1)
-                .IsUnicode(false);
-
-            modelBuilder.Entity<Team>()
-                .Property(e => e.Team2)
-                .IsUnicode(false);
-
-            modelBuilder.Entity<ThirdTeam>()
-                .Property(e => e.Team1)
-                .IsUnicode(false);
-
-            modelBuilder.Entity<ThirdTeam>()
-                .Property(e => e.Team2)
-                .IsUnicode(false);
-        }
+        public int Team2Score { get; set; }
     }
 }

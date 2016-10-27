@@ -10,7 +10,7 @@
 namespace COMP229GameProject {
     
     
-    public partial class Courses {
+    public partial class Week3 {
         
         /// <summary>
         /// content control.

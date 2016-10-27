@@ -43,10 +43,10 @@
                 </asp:PlaceHolder>
 
                 <asp:PlaceHolder ID="ContosoPlaceHolder" runat="server">
-                    <li id="week1" runat="server"><a href="/Contoso/MainMenu.aspx"><i class="fa fa-leanpub fa-lg"></i> Week 1 </a></li>
-                    <li id="week2" runat="server"><a href="/Contoso/Students.aspx"><i class="fa fa-leanpub fa-lg"></i> Week 2 </a></li>
-                    <li id="week3" runat="server"><a href="/Contoso/Courses.aspx"><i class="fa fa-leanpub fa-lg"></i> Week 3 </a></li>
-                    <li id="week4" runat="server"><a href="/Contoso/Departments.aspx"><i class="fa fa-leanpub fa-lg"></i> Week 4 </a></li>
+                    <li id="week1" runat="server"><a href="/Contoso/Week1.aspx"><i class="fa fa-leanpub fa-lg"></i> Week 1 </a></li>
+                    <li id="week2" runat="server"><a href="/Contoso/Week2.aspx"><i class="fa fa-leanpub fa-lg"></i> Week 2 </a></li>
+                    <li id="week3" runat="server"><a href="/Contoso/Week3.aspx"><i class="fa fa-leanpub fa-lg"></i> Week 3 </a></li>
+                    <li id="week4" runat="server"><a href="/Contoso/Week4.aspx"><i class="fa fa-leanpub fa-lg"></i> Week 4 </a></li>
                     <li id="logout" runat="server"><a href="/Logout.aspx"><i class="fa fa-sign-out fa-lg"></i> Logout </a></li>
                 </asp:PlaceHolder>
                 

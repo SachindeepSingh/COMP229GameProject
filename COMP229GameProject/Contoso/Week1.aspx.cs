@@ -30,8 +30,9 @@ namespace COMP229GameProject.Contoso
                 var TeamData = (from allTeams in db.Teams
                                 select allTeams);
 
-                CricketsGridView.DataSource = TeamData.ToList();
-                CricketsGridView.DataBind();
+                //
+                CricketGridView.DataSource= TeamData.ToList();
+                CricketGridView.DataBind();
             }
         }
     }

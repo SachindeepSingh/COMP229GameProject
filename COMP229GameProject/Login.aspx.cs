@@ -39,7 +39,7 @@ namespace COMP229GameProject
                 authenticationManager.SignIn(new AuthenticationProperties() { IsPersistent = false }, userIdentity);
 
                 // redirect the user to the main menu
-                Response.Redirect("~/Contoso/MainMenu.aspx");
+                Response.Redirect("~/Contoso/Week1.aspx");
             }
             else // user is not found
             {
